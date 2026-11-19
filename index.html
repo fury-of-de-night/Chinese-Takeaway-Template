@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="A demo ordering website for M&N Chinese Food Restaurant on Dennis Street, Georgetown."><title>M&N Chinese Food | Georgetown</title><link rel="icon" href="./assets/mark.svg"><link rel="stylesheet" href="./style.css"><script defer src="./app.js"></script></head>
+<body>
+<header><div class="wrap bar"><a class="brand" href="#home"><span class="seal">M&N</span><span>M&N <strong>CHINESE FOOD</strong><small>GEORGETOWN, GUYANA</small></span></a><nav aria-label="Main navigation"><a href="#home">Home</a><a href="#menu">Menu</a><button class="plain" id="track">Track order</button></nav><div class="actions"><button id="translation" aria-label="Translation options"><span aria-hidden="true">◎</span> <span id="language" aria-hidden="true" lang="en">Translation</span></button><button class="primary" id="cart">Cart <span id="count">0</span></button></div></div></header>
+<main>
+<section class="hero" id="home"><div class="wrap hero-inner"><div class="hero-copy"><p class="eyebrow"><span>◆</span> CHINESE TAKEAWAY · GEORGETOWN</p><h1>Big flavour.<br><em>Hot off the wok.</em></h1><p>Explore Chinese takeaway favourites in this ordering demo for M&N Chinese Food Restaurant.</p><a class="button primary" href="#menu">Explore the menu <span aria-hidden="true">→</span></a></div></div></section>
+<div class="demo-strip"><div class="wrap"><strong>DEMO MODE</strong><span>Sample dishes, prices and photos. Orders stay in this browser.</span></div></div>
+<section id="menu" class="wrap menu"><p class="eyebrow">FROM THE WOK</p><h2>Explore the menu</h2><p class="muted">Pick a dish and choose your portion.</p><div class="filters"><div id="categories" aria-label="Menu categories"></div><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search dishes" aria-label="Search dishes"></label></div><div class="cards" id="dishes"></div></section>
+<section class="visit"><div class="wrap"><div><p class="eyebrow">FIND US</p><h2>Dennis Street, Georgetown</h2><p>The transport provider quotes delivery separately from the food total in this demo.</p></div><a class="button" href="https://maps.app.goo.gl/SRP9dWFq8L3QjiGy9">Get directions ↗</a></div></section>
+</main>
+<footer class="wrap"><span>M&N Chinese Food Restaurant</span><button class="plain" id="admin">Demo admin</button></footer>
+<div id="notice" role="status"></div>
+<dialog id="dialog" aria-labelledby="dialog-title"><div class="dialog-head"><h2 id="dialog-title"></h2><button id="close" aria-label="Close dialog">✕</button></div><div id="panel"></div><div id="dialog-notice" role="status"></div></dialog>
+</body></html>
